@@ -2,6 +2,7 @@ var swiper = new Swiper(".mySwiper", {
     draggable: true,
     slidesPerView: 1.25,
     initialSlide: 1,
+    loop:true,
     breakpoints: {
         // when window width is >= 320px
         320: {

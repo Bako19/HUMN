@@ -96,7 +96,8 @@ body {
 
 .homeSec1 {
     width: 100%;
-    margin-top: 200px;
+    height: 100vh;
+    margin-top: 100px;
     overflow-x: scroll;
 }
 
@@ -307,6 +308,11 @@ body {
     object-fit: cover;
 }
 
+.artistIMG{
+    aspect-ratio: 1 / 1.278;
+    object-fit: cover;
+}
+
 
 
 
@@ -369,6 +375,7 @@ body {
 
     .homeSec1 {
         margin-top: 100px;
+        height: 80vh;
     }
 }
 
