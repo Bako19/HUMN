@@ -94,15 +94,27 @@ body {
     text-decoration: none;
 }
 
+#navbar{
+    min-height: 47px;
+}
+
+.nav-img{
+    transform: translate(50%);
+    right: 50%;
+}
+
 .homeSec1 {
     width: 100%;
-    height: 100vh;
     margin-top: 100px;
     overflow-x: scroll;
 }
 
 .ourSecc1 {
-    min-height: 80vh;
+    min-height: 100vh;
+}
+
+.aboutSec1{
+    min-height: 100vh;
 }
 
 .homeHuman {
